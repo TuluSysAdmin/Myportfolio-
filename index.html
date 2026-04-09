@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tulu Bekele — IT Support Specialist</title>
+  <meta name="description" content="IT Support Specialist with 3+ years of experience in system administration, networking, and endpoint management." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Your stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ════════════════════════════════════════════
+     NAVIGATION
+════════════════════════════════════════════ -->
+<nav id="navbar">
+  <div class="nav-logo">TB<span>.</span></div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact" class="nav-cta">Contact Me</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+
+<!-- ════════════════════════════════════════════
+     HERO
+════════════════════════════════════════════ -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+
+  <div class="hero-inner">
+
+    <!-- Left: text content -->
+    <div class="hero-content">
+      <div class="hero-badge">Available for opportunities</div>
+
+      <h1 class="hero-name">Tulu<br><span class="accent">Bekele</span></h1>
+      <div class="hero-title">IT Support Specialist</div>
+      <p class="hero-tagline">Solving technical problems and building reliable systems — one ticket at a time.</p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M4 17l6-6-6-6M12 19h8"/>
+          </svg>
+          View My Work
+        </a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+
+    <!-- Right: photo + stats -->
+    <div class="hero-panel">
+
+      <!-- ── PROFILE PHOTO ──────────────────────────────────
+           HOW TO ADD YOUR PHOTO IN VS CODE:
+           1. Save your photo as "images/profile.jpg"
+              (create an "images" folder next to index.html)
+           2. Change the src below to: images/profile.jpg
+           3. Delete the placeholder <div> below the <img> tag
+           ─────────────────────────────────────────────── -->
+      <div class="profile-photo-wrap">
+        <img
+          src="images/profile.jpg"
+          alt="Tulu Bekele"
+          onerror="this.style.display='none'; document.getElementById('profilePlaceholder').style.display='flex';"
+        />
+        <!-- Shown automatically if the image file is missing -->
+        <div class="profile-placeholder" id="profilePlaceholder" style="display:none;">
+          <svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="#7bb8fc" stroke-width="1.5">
+            <circle cx="12" cy="8" r="4"/>
+            <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+          </svg>
+          <span>Add images/profile.jpg</span>
+        </div>
+      </div>
+
+      <!-- Stats card -->
+      <div class="hero-card">
+        <div class="hero-stats">
+          <div class="stat">
+            <div class="stat-num">3+</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">150+</div>
+            <div class="stat-label">Users Supported</div>
+          </div>
+        </div>
+        <div class="hero-location">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+            <circle cx="12" cy="10" r="3"/>
+          </svg>
+          Blaine, MN — Open to remote &amp; hybrid
+        </div>
+      </div>
+
+    </div><!-- /hero-panel -->
+  </div><!-- /hero-inner -->
+</section>
+
+
+<!-- ════════════════════════════════════════════
+     ABOUT
+════════════════════════════════════════════ -->
+<section id="about">
+  <div class="container">
+    <div class="section-label">Who I Am</div>
+    <h2 class="section-title reveal">About Me</h2>
+
+    <div class="about-grid">
+
+      <div class="about-text reveal">
+        <p>IT Support Specialist with 3+ years of hands-on experience delivering Tier 1–2 support across diverse environments. Skilled in system administration, networking, and endpoint management, with a proven ability to resolve issues quickly, improve IT processes, and support 150+ users.</p>
+        <p>Known for combining technical expertise with clear communication to keep systems secure, efficient, and users productive. Proficient in troubleshooting and supporting Windows, macOS, and Linux systems, with hands-on experience in Active Directory, Microsoft 365, and endpoint management.</p>
+        <p>Strong background in networking (DNS, DHCP, VLANs, VPNs) and IT infrastructure, with a focus on system reliability, security, and efficient user support.</p>
+      </div>
+
+      <div class="about-highlights reveal">
+        <div class="highlight-item">
+          <div class="highlight-icon">🖥️</div>
+          <div class="highlight-text">
+            <h4>System Administration</h4>
+            <p>Active Directory, Azure AD, user provisioning &amp; access control</p>
+          </div>
+        </div>
+        <div class="highlight-item">
+          <div class="highlight-icon">🌐</div>
+          <div class="highlight-text">
+            <h4>Networking</h4>
+            <p>VLANs, DNS, DHCP, TCP/IP, VPN, Cisco &amp; TP-Link switches</p>
+          </div>
+        </div>
+        <div class="highlight-item">
+          <div class="highlight-icon">🛡️</div>
+          <div class="highlight-text">
+            <h4>Security &amp; Compliance</h4>
+            <p>MFA, IAM, Okta, ITIL best practices, security patching</p>
+          </div>
+        </div>
+        <div class="highlight-item">
+          <div class="highlight-icon">📱</div>
+          <div class="highlight-text">
+            <h4>Endpoint Management</h4>
+            <p>Intune, JAMF, MDM for full Windows &amp; macOS device lifecycle</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════════════
+     SKILLS
+════════════════════════════════════════════ -->
+<section id="skills">
+  <div class="container">
+    <div class="section-label">What I Know</div>
+    <h2 class="section-title reveal">Technical Skills</h2>
+    <p class="section-sub reveal">A broad toolkit built through real-world experience across diverse IT environments.</p>
+
+    <div class="skills-grid">
+
+      <div class="skill-card reveal">
+        <div class="skill-card-icon">⚙️</div>
+        <h3>Technical Skills</h3>
+        <div class="skill-tags">
+          <span class="tag">Active Directory</span>
+          <span class="tag">User &amp; Group Mgmt</span>
+          <span class="tag">DNS / DHCP</span>
+          <span class="tag">VLANs / TCP/IP</span>
+          <span class="tag">VPNs</span>
+          <span class="tag">Tier 1–2 Support</span>
+          <span class="tag">MFA / IAM</span>
+          <span class="tag">Okta</span>
+          <span class="tag">Nakivo Backup</span>
+          <span class="tag">Hyper-V / Proxmox</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-card-icon">🔧</div>
+        <h3>Tools &amp; Platforms</h3>
+        <div class="skill-tags">
+          <span class="tag">Microsoft 365</span>
+          <span class="tag">Outlook / Teams</span>
+          <span class="tag">SharePoint</span>
+          <span class="tag">ServiceNow</span>
+          <span class="tag">Jira</span>
+          <span class="tag">Atera</span>
+          <span class="tag">Intune</span>
+          <span class="tag">JAMF</span>
+          <span class="tag">MDM</span>
+          <span class="tag">Zoom / Slack</span>
+          <span class="tag">GitHub</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-card-icon">💻</div>
+        <h3>Systems &amp; OS</h3>
+        <div class="skill-tags">
+          <span class="tag">Windows 10/11</span>
+          <span class="tag">macOS</span>
+          <span class="tag">Ubuntu Linux</span>
+          <span class="tag">CentOS / Kali</span>
+          <span class="tag">Azure AD</span>
+          <span class="tag">Cisco Switches</span>
+          <span class="tag">TP-Link</span>
+          <span class="tag">QNAP</span>
+          <span class="tag">Clonezilla</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════════════
+     PROJECTS
+     ── HOW TO ADD PROJECT IMAGES IN VS CODE ──
+     1. Create a folder called "images/" next to index.html
+     2. Save each screenshot there, e.g.:
+          images/project1.jpg
+          images/project2.png  (any format works)
+     3. Update each src="images/project1.jpg" below to
+        match your actual filenames.
+     The onerror handler shows a grey placeholder
+     automatically if the file is missing.
+════════════════════════════════════════════ -->
+<section id="projects">
+  <div class="container">
+    <div class="section-label">What I've Built</div>
+    <h2 class="section-title reveal">Projects</h2>
+    <p class="section-sub reveal">
+      To add screenshots: save images to the <code>images/</code> folder and update the
+      <code>src</code> attribute on each project card below.
+    </p>
+
+    <div class="projects-grid">
+
+      <!-- ── PROJECT 1 ── -->
+      <div class="project-card reveal">
+        <div class="project-image">
+          <!-- Change src to your screenshot file, e.g. images/project1.jpg -->
+          <img
+            src="images/project1.jpg"
+            alt="Enterprise Server Deployment screenshot"
+            onerror="this.parentElement.querySelector('.project-image-placeholder').style.display='flex'; this.style.display='none';"
+          />
+          <div class="project-image-placeholder" style="display:none;">
+            <svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+              <rect x="3" y="3" width="18" height="18" rx="2"/>
+              <circle cx="8.5" cy="8.5" r="1.5"/>
+              <polyline points="21 15 16 10 5 21"/>
+            </svg>
+            <span>Add images/project1.jpg</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-num">01</div>
+          <h3>Enterprise Server Deployment &amp; Infrastructure Setup</h3>
+          <p>Designed and deployed a production-ready server environment including hardware installation (SSD, CPU, RAM, RAID) and full system configuration with Active Directory, DFS, and multiple VMs.</p>
+          <div class="project-footer">
+            <span class="project-tech">Windows Server 2025</span>
+            <span class="project-tech">Active Directory</span>
+            <span class="project-tech">DFS</span>
+            <span class="project-tech">Hyper-V</span>
+            <span class="project-tech">RAID</span>
+          </div>
+          <!-- Optional: add your GitHub link here
+          <a href="https://github.com/YOUR_USERNAME/repo" target="_blank" class="project-link">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+            View on GitHub
+          </a>
+          -->
+        </div>
+      </div>
+
+      <!-- ── PROJECT 2 ── -->
+      <div class="project-card reveal">
+        <div class="project-image">
+          <img
+            src="images/project2.jpg"
+            alt="Backup and Disaster Recovery screenshot"
+            onerror="this.parentElement.querySelector('.project-image-placeholder').style.display='flex'; this.style.display='none';"
+          />
+          <div class="project-image-placeholder" style="display:none;">
+            <svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+              <rect x="3" y="3" width="18" height="18" rx="2"/>
+              <circle cx="8.5" cy="8.5" r="1.5"/>
+              <polyline points="21 15 16 10 5 21"/>
+            </svg>
+            <span>Add images/project2.jpg</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-num">02</div>
+          <h3>Backup &amp; Disaster Recovery (Nakivo on Proxmox)</h3>
+          <p>Researched, selected, and deployed Nakivo within a Proxmox virtualized environment. Configured automated backups, recovery processes, and tested failover scenarios for business continuity.</p>
+          <div class="project-footer">
+            <span class="project-tech">Nakivo</span>
+            <span class="project-tech">Proxmox</span>
+            <span class="project-tech">Virtualization</span>
+            <span class="project-tech">Storage Mgmt</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── PROJECT 3 ── -->
+      <div class="project-card reveal">
+        <div class="project-image">
+          <img
+            src="images/project3.jpg"
+            alt="Nextcloud deployment screenshot"
+            onerror="this.parentElement.querySelector('.project-image-placeholder').style.display='flex'; this.style.display='none';"
+          />
+          <div class="project-image-placeholder" style="display:none;">
+            <svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+              <rect x="3" y="3" width="18" height="18" rx="2"/>
+              <circle cx="8.5" cy="8.5" r="1.5"/>
+              <polyline points="21 15 16 10 5 21"/>
+            </svg>
+            <span>Add images/project3.jpg</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-num">03</div>
+          <h3>Private Cloud File System (Nextcloud)</h3>
+          <p>Deployed and configured Nextcloud on Proxmox to provide secure, centralized document management with user access control and file sharing as an alternative to traditional network drives.</p>
+          <div class="project-footer">
+            <span class="project-tech">Nextcloud</span>
+            <span class="project-tech">Proxmox</span>
+            <span class="project-tech">Linux</span>
+            <span class="project-tech">Networking</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── PROJECT 4 ── -->
+      <div class="project-card reveal">
+        <div class="project-image">
+          <img
+            src="images/project4.jpg"
+            alt="Network IDF build-out screenshot"
+            onerror="this.parentElement.querySelector('.project-image-placeholder').style.display='flex'; this.style.display='none';"
+          />
+          <div class="project-image-placeholder" style="display:none;">
+            <svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+              <rect x="3" y="3" width="18" height="18" rx="2"/>
+              <circle cx="8.5" cy="8.5" r="1.5"/>
+              <polyline points="21 15 16 10 5 21"/>
+            </svg>
+            <span>Add images/project4.jpg</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-num">04</div>
+          <h3>Network Infrastructure Setup (IDF Build-Out)</h3>
+          <p>Built and configured a complete Intermediate Distribution Frame (IDF), including patch panel installation, cable management, switch configuration, VLANs, and reliable LAN/WAN connectivity.</p>
+          <div class="project-footer">
+            <span class="project-tech">Cisco Switches</span>
+            <span class="project-tech">VLANs</span>
+            <span class="project-tech">Cabling</span>
+            <span class="project-tech">TP-Link</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── PROJECT 5 ── -->
+      <div class="project-card reveal">
+        <div class="project-image">
+          <img
+            src="images/project5.jpg"
+            alt="GitHub documentation screenshot"
+            onerror="this.parentElement.querySelector('.project-image-placeholder').style.display='flex'; this.style.display='none';"
+          />
+          <div class="project-image-placeholder" style="display:none;">
+            <svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+              <rect x="3" y="3" width="18" height="18" rx="2"/>
+              <circle cx="8.5" cy="8.5" r="1.5"/>
+              <polyline points="21 15 16 10 5 21"/>
+            </svg>
+            <span>Add images/project5.jpg</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-num">05</div>
+          <h3>Technical Documentation &amp; Knowledge Base</h3>
+          <p>Created detailed technical documentation including step-by-step setup guides, troubleshooting procedures, and SOPs to improve team knowledge sharing and reduce recurring resolution time.</p>
+          <div class="project-footer">
+            <span class="project-tech">GitHub</span>
+            <span class="project-tech">Markdown</span>
+            <span class="project-tech">IT Documentation</span>
+            <span class="project-tech">SOP Dev</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── PROJECT 6 ── -->
+      <div class="project-card reveal">
+        <div class="project-image">
+          <img
+            src="images/project6.jpg"
+            alt="Windows 11 migration screenshot"
+            onerror="this.parentElement.querySelector('.project-image-placeholder').style.display='flex'; this.style.display='none';"
+          />
+          <div class="project-image-placeholder" style="display:none;">
+            <svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+              <rect x="3" y="3" width="18" height="18" rx="2"/>
+              <circle cx="8.5" cy="8.5" r="1.5"/>
+              <polyline points="21 15 16 10 5 21"/>
+            </svg>
+            <span>Add images/project6.jpg</span>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-num">06</div>
+          <h3>PC Migration: Windows 10 → 11 (150+ Devices)</h3>
+          <p>Planned and executed a large-scale migration of 150+ PCs from Windows 10 to Windows 11 using Clonezilla imaging workflows, minimizing downtime and ensuring continuity for all end users.</p>
+          <div class="project-footer">
+            <span class="project-tech">Clonezilla</span>
+            <span class="project-tech">Windows 11</span>
+            <span class="project-tech">Intune</span>
+            <span class="project-tech">Endpoint Mgmt</span>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /projects-grid -->
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════════════
+     EXPERIENCE
+════════════════════════════════════════════ -->
+<section id="experience">
+  <div class="container">
+    <div class="section-label">Career History</div>
+    <h2 class="section-title reveal">Experience</h2>
+    <p class="section-sub reveal">Proven track record delivering reliable IT support across diverse environments.</p>
+
+    <div class="timeline">
+
+      <!-- Job 1 -->
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-role">IT System Support (Contract)</div>
+        <div class="timeline-meta">
+          <span>🏢 Flame Metals Processing · Rogers, MN</span>
+          <span>📅 February 2024 – Present</span>
+          <span class="timeline-current">Current</span>
+        </div>
+        <div class="timeline-body">
+          <ul>
+            <li>Provide Tier 1–2 support for 150+ users across Windows, macOS, Linux, and mobile — resolving incidents via ServiceNow per ITIL best practices.</li>
+            <li>Administer Active Directory, Exchange, DNS, DHCP, DFS, File/Print Services, and SQL Server Express environments.</li>
+            <li>Manage user provisioning/deprovisioning, security group assignments, and permissions for onboarding and offboarding.</li>
+            <li>Configure and maintain Cisco &amp; TP-Link switches, assign VLANs, deploy fiber cabling, and ensure secure LAN/WAN and VPN connectivity.</li>
+            <li>Implement endpoint management using Intune, JAMF, and MDM tools for full Windows/macOS device lifecycle management.</li>
+            <li>Executed migration of 150+ PCs from Windows 10 to 11 using Clonezilla imaging workflows.</li>
+            <li>Administer backup and recovery (Nakivo, Hyper-V, Proxmox, QNAP, Wasabi) to support business continuity requirements.</li>
+            <li>Author and maintain technical documentation (GitHub knowledge base, SOPs) to accelerate incident resolution.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Job 2 -->
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-role">IT System Support Intern</div>
+        <div class="timeline-meta">
+          <span>🏢 North Star NP · Saint Paul, MN</span>
+          <span>📅 September 2023 – January 2024</span>
+        </div>
+        <div class="timeline-body">
+          <ul>
+            <li>Configured and deployed laptops for employees with proper security settings.</li>
+            <li>Used Atera RMM to track IT tickets and monitor system performance.</li>
+            <li>Maintained and troubleshot network connectivity, VPN, and server issues.</li>
+            <li>Deployed, configured, and troubleshot macOS devices using MDM tools.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Job 3 -->
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-role">Information Systems Intern</div>
+        <div class="timeline-meta">
+          <span>🏢 Wisconsin Employee Trust Fund · Madison, WI</span>
+          <span>📅 Summer 2023</span>
+        </div>
+        <div class="timeline-body">
+          <ul>
+            <li>Provided remote IT support via Slack, Zoom, and remote desktop tools.</li>
+            <li>Assisted in Google Suite and Office 365 user management.</li>
+            <li>Documented IT processes and troubleshooting steps for common support issues.</li>
+            <li>Supported IT teams on security patching and OS updates for compliance.</li>
+            <li>Oversaw laptop lifecycle management including imaging, maintenance, and decommissioning.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div><!-- /timeline -->
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════════════
+     EDUCATION
+════════════════════════════════════════════ -->
+<section id="education">
+  <div class="container">
+    <div class="section-label">Academic Background</div>
+    <h2 class="section-title reveal">Education &amp; Certifications</h2>
+
+    <div class="edu-grid">
+
+      <div class="edu-card reveal">
+        <div class="edu-card-icon">🎓</div>
+        <h3>B.S. in Information Technology</h3>
+        <div class="school">Minnesota State University, Mankato</div>
+        <div class="detail">Graduated Summa Cum Laude · GPA: 3.93/4.0</div>
+      </div>
+
+      <div class="edu-card reveal">
+        <div class="edu-card-icon">📜</div>
+        <h3>Certifications</h3>
+        <div class="school">Technical Credentials</div>
+        <div class="cert-list">
+          <div class="cert-item">Microsoft Azure Fundamentals (AZ-900)</div>
+          <div class="cert-item">Networking Technologies — Cisco Packet Tracer</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════════════
+     CONTACT
+════════════════════════════════════════════ -->
+<section id="contact">
+  <div class="container">
+    <div class="section-label">Get In Touch</div>
+    <h2 class="section-title reveal">Contact Me</h2>
+    <p class="section-sub reveal">Have a position to fill or want to discuss IT infrastructure? Let's talk.</p>
+
+    <div class="contact-grid">
+
+      <div class="contact-info reveal">
+        <h3>Direct Contact</h3>
+        <div class="contact-items">
+          <a href="mailto:Tulubekele23@gmail.com" class="contact-item">
+            <div class="contact-item-icon">✉️</div>
+            Tulubekele23@gmail.com
+          </a>
+          <a href="tel:6513479978" class="contact-item">
+            <div class="contact-item-icon">📞</div>
+            651-347-9978
+          </a>
+          <div class="contact-item">
+            <div class="contact-item-icon">📍</div>
+            Blaine, MN (Open to hybrid/remote)
+          </div>
+          <!-- Update these links with your real GitHub and LinkedIn URLs -->
+          <a href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener" class="contact-item">
+            <div class="contact-item-icon">🐙</div>
+            GitHub — View Documentation
+          </a>
+          <a href="https://linkedin.com/in/YOUR_USERNAME" target="_blank" rel="noopener" class="contact-item">
+            <div class="contact-item-icon">💼</div>
+            LinkedIn Profile
+          </a>
+        </div>
+      </div>
+
+      <form action="https://formspree.io/f/xykballq" method="POST" class="contact-form reveal">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="your@email.com" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input id="subject" name="subject" type="text" placeholder="What's this about?" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me about the opportunity or project..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="align-self:flex-start;">
+          Send Message
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <line x1="22" y1="2" x2="11" y2="13"/>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+          </svg>
+        </button>
+      </form>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════ -->
+<footer>
+  <div class="foot-logo">TB<span>.</span></div>
+  <p>© 2025 Tulu Bekele · IT Support Specialist · Blaine, MN</p>
+  <div class="foot-links">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</footer>
+
+<!-- Dark / Light mode toggle (bottom-right corner) -->
+<button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">🌙</button>
+
+<!-- Your JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
